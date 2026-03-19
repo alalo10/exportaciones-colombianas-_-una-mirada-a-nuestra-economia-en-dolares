@@ -38,11 +38,30 @@ Este proyecto analiza estadísticamente las exportaciones colombianas entre **20
 
 ---
 
-## 📊 Fuente de Datos
+## 🗄️ Dataset
 
-- **ANDA — DANE:** Base de datos de exportaciones colombianas 2011–2024 (archivo unificado `.csv`)  
-- **MINCIT:** [Informe de exportaciones Colombia — Enero 2024](https://www.mincit.gov.co)  
-- **Banco de la República:** [Export Dynamics in Colombia: Firm-Level Evidence — Working Paper No. 446](https://www.banrep.gov.co)  
+Los datos utilizados en este proyecto **no están incluidos en el repositorio** por su tamaño (432 MB).
+
+Puedes acceder al archivo CSV ya limpio y listo para usar aquí:
+
+📥 **[Descargar datos limpios — Google Drive](https://drive.google.com/file/d/1-ZJoichICsJBzFYdZz4ra5cUML-d0vPU/view?usp=sharing)**
+
+### Origen de los datos
+- **Fuente oficial:** ANDA — Archivo Nacional de Datos del DANE  
+- **Portal:** [microdatos.dane.gov.co](https://microdatos.dane.gov.co/)  
+- **Cobertura:** Exportaciones colombianas enero 2011 — diciembre 2024  
+
+### Variables principales
+
+| Variable | Descripción |
+|---|---|
+| `ANHO` | Año de la exportación |
+| `MES` | Mes de la exportación |
+| `COD_PAI4` | Código del país de destino (ej: `USA`, `MEX`) |
+| `FOBDOL` | Valor FOB de la exportación en dólares |
+| `PNK` | Peso neto de la carga en kilogramos |
+
+> ⚠️ Para ejecutar el notebook, descarga el archivo y ubícalo en tu Google Drive en la ruta `MyDrive/ESTADISTICA II/`
 
 ---
 
