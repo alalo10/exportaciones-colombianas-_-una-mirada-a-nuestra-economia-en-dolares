@@ -87,6 +87,6 @@ Puedes acceder al archivo CSV ya limpio y listo para usar aquí:
 
 ---
 
-## 📄 Licencia
-
-Proyecto académico — Uso educativo.
+<p align="center">
+  Hecho con ❤️ en la Universidad Industrial de Santander · 2025
+</p>
